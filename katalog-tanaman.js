@@ -27,7 +27,6 @@
       ["Beringin", "Beringin", "Ficus benjamina"],
       ["Puring", "Puring", "Codiaeum variegatum"],
       ["Awar-Awar","Awar-Awar","Ficus septica"]
-      ["Mahogani","Mahogani","Khaya senegalensis]
     ]},
     { daerah: "Masjid", items: [
       ["Handeuleum", "Handeuleum", "Graptophyllum pictum"],
@@ -52,6 +51,7 @@
       ["Bungur", "Bungur", "Lagerstroemia speciosa (L.) Pers"],
       ["DaunBahagia", "Daun Bahagia", "Dieffenbachia oerstedii Schott."],
       ["LidahMertuaAfrikaTimur", "Lidah Mertua Afrika Timur", "Dracaena hyacinthoides (L.) Mabb."]
+      ["Mahogani","Mahogani","Khaya senegalensis"]
     ]},
     { daerah: "Lapangan Basket", items: [
       ["BromeliaMawar", "Bromelia Mawar", "Alcantarea imperialis"],
@@ -91,6 +91,8 @@
       ["PohonMangga", "Pohon Mangga", "Mangifera indica"],
       ["Rambutan", "Rambutan", "Nephelium lappaceum"],
       ["JambuAir", "Jambu Air", "Syzygium aqueum"]
+      ["Mahogani","Mahogani","Khaya senegalensis"]
+      ["Bisbul","Bisbul","Diospyros blancoi"]
     ]},
     { daerah: "Taman Bahagia", items: [
       ["BungaLilin", "Bunga Lilin", "Pachystachys lutea Nees"],
