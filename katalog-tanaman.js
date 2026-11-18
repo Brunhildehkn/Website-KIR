@@ -71,7 +71,7 @@
       ["Bougenville", "Bunga Kertas", "Bougainvillea spectabilis", "Bougenville.jpg"],
       ["SenteHitam", "Sente Hitam", "Alocasia plumbea"],
       ["LiriopeMuscari", "Rumput Lili Rope", "Liriope muscari", "Liriope Muscari.jpg"],
-      ["PohonJambu", "Pohon Jambu Kelompok Arum", "Syzygium jambos (L.) Alston", "Pohon Jambu.jpg"],
+      ["PohonJambu", "Pohon Jambu Mawar", "Syzygium jambos (L.) Alston", "Pohon Jambu.jpg"],
       ["Pepaya", "Pepaya", "Carica papaya L."],
       ["BungaTaiwanese", "Bunga Taiwanese", "Cuphea hyssopifolia"],
       ["ChalateaPisang", "Daun Havana", "Calathea lutea", "Chalatea Pisang.jpg"],
