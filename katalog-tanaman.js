@@ -50,7 +50,7 @@
       ["KaretKebo", "Karet Kebo", "Ficus elastica Roxb. ex Hornem."],
       ["Bungur", "Bungur", "Lagerstroemia speciosa (L.) Pers"],
       ["DaunBahagia", "Daun Bahagia", "Dieffenbachia oerstedii Schott."],
-      ["LidahMertuaAfrikaTimur", "Lidah Mertua Afrika Timur", "Dracaena hyacinthoides (L.) Mabb."]
+      ["LidahMertuaAfrikaTimur", "Lidah Mertua Afrika Timur", "Dracaena hyacinthoides (L.) Mabb."],
       ["Mahogani","Mahogani","Khaya senegalensis"]
     ]},
     { daerah: "Lapangan Basket", items: [
@@ -90,8 +90,8 @@
       ["Sukun", "Sukun", "Artocarpus altilis"],
       ["PohonMangga", "Pohon Mangga", "Mangifera indica"],
       ["Rambutan", "Rambutan", "Nephelium lappaceum"],
-      ["JambuAir", "Jambu Air", "Syzygium aqueum"]
-      ["Mahogani","Mahogani","Khaya senegalensis"]
+      ["JambuAir", "Jambu Air", "Syzygium aqueum"],
+      ["Mahogani","Mahogani","Khaya senegalensis"],
       ["Bisbul","Bisbul","Diospyros blancoi"]
     ]},
     { daerah: "Taman Bahagia", items: [
