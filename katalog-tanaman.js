@@ -51,7 +51,7 @@
       ["Bungur", "Bungur", "Lagerstroemia speciosa (L.) Pers"],
       ["DaunBahagia", "Daun Bahagia", "Dieffenbachia oerstedii Schott."],
       ["LidahMertuaAfrikaTimur", "Lidah Mertua Afrika Timur", "Dracaena hyacinthoides (L.) Mabb."],
-      ["Mahogani","Mahogani","Khaya senegalensis"]
+      ["Mahogani","Mahogani Afrika","Khaya senegalensis"]
     ]},
     { daerah: "Lapangan Basket", items: [
       ["BromeliaMawar", "Bromelia Mawar", "Alcantarea imperialis"],
@@ -91,7 +91,7 @@
       ["PohonMangga", "Pohon Mangga", "Mangifera indica"],
       ["Rambutan", "Rambutan", "Nephelium lappaceum"],
       ["JambuAir", "Jambu Air", "Syzygium aqueum"],
-      ["Mahogani","Mahogani","Khaya senegalensis"],
+      ["Mahogani","Mahogani Afrika","Khaya senegalensis"],
       ["Bisbul","Bisbul","Diospyros blancoi"]
     ]},
     { daerah: "Taman Bahagia", items: [
