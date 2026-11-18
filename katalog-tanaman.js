@@ -26,7 +26,8 @@
       ["MahkotaDuri", "Mahkota Duri", "Euphorbia milii"],
       ["Beringin", "Beringin", "Ficus benjamina"],
       ["Puring", "Puring", "Codiaeum variegatum"],
-      ["Awar-Awar","Awar-Awar","Ficus septica"]
+      ["Awar-Awar","Awar-Awar","Ficus septica"],
+      ["Cempaka","Cempaka","Magnolia grandiflora"]
     ]},
     { daerah: "Masjid", items: [
       ["Handeuleum", "Handeuleum", "Graptophyllum pictum"],
