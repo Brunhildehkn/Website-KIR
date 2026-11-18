@@ -25,7 +25,9 @@
       ["LidahMertuaSemak", "Lidah Mertua Semak", "Sansevieria hyacinthoides"],
       ["MahkotaDuri", "Mahkota Duri", "Euphorbia milii"],
       ["Beringin", "Beringin", "Ficus benjamina"],
-      ["Puring", "Puring", "Codiaeum variegatum"]
+      ["Puring", "Puring", "Codiaeum variegatum"],
+      ["Awar-Awar","Awar-Awar","Ficus septica"]
+      ["Mahogani","Mahogani","Khaya senegalensis]
     ]},
     { daerah: "Masjid", items: [
       ["Handeuleum", "Handeuleum", "Graptophyllum pictum"],
