@@ -26,8 +26,8 @@
       ["MahkotaDuri", "Mahkota Duri", "Euphorbia milii"],
       ["Beringin", "Beringin", "Ficus benjamina"],
       ["Puring", "Puring", "Codiaeum variegatum"],
-      ["Awar-Awar","Awar-Awar","Ficus septica"],
-      ["Cempaka","Cempaka","Magnolia grandiflora"]
+      ["Awar-Awar", "Awar-Awar", "Ficus septica"],
+      ["Cempaka", "Cempaka", "Magnolia grandiflora"]
     ]},
     { daerah: "Masjid", items: [
       ["Handeuleum", "Handeuleum", "Graptophyllum pictum"],
@@ -52,7 +52,7 @@
       ["Bungur", "Bungur", "Lagerstroemia speciosa (L.) Pers"],
       ["DaunBahagia", "Daun Bahagia", "Dieffenbachia oerstedii Schott."],
       ["LidahMertuaAfrikaTimur", "Lidah Mertua Afrika Timur", "Dracaena hyacinthoides (L.) Mabb."],
-      ["Mahogani","Mahogani Afrika","Khaya senegalensis"]
+      ["Mahogani", "Mahogani Afrika", "Khaya senegalensis"]
     ]},
     { daerah: "Lapangan Basket", items: [
       ["BromeliaMawar", "Bromelia Mawar", "Alcantarea imperialis"],
@@ -92,8 +92,8 @@
       ["PohonMangga", "Pohon Mangga", "Mangifera indica"],
       ["Rambutan", "Rambutan", "Nephelium lappaceum"],
       ["JambuAir", "Jambu Air", "Syzygium aqueum"],
-      ["Mahogani","Mahogani Afrika","Khaya senegalensis"],
-      ["Bisbul","Bisbul","Diospyros blancoi"]
+      ["Mahogani", "Mahogani Afrika", "Khaya senegalensis"],
+      ["Bisbul", "Bisbul", "Diospyros blancoi"]
     ]},
     { daerah: "Taman Bahagia", items: [
       ["BungaLilin", "Bunga Lilin", "Pachystachys lutea Nees"],
@@ -124,17 +124,31 @@
     "#katalog-tanaman .kt-chip:hover{border-color:" + NAVY + "}",
     "#katalog-tanaman .kt-chip:focus-visible{outline:3px solid #cdd1f0}",
     "#katalog-tanaman .kt-chip[aria-pressed=true]{background:" + NAVY + ";border-color:" + NAVY + ";color:#fff}",
-    "#katalog-tanaman .kt-wilayah{margin:28px 0 15px}",
-    "#katalog-tanaman .kt-wilayah:first-child{margin-top:20px}",
+    "#katalog-tanaman .kt-seksi{margin-top:28px}",
+    "#katalog-tanaman .kt-seksi:first-child{margin-top:20px}",
+    "#katalog-tanaman .kt-wilayah{margin:0 0 15px}",
     "#katalog-tanaman .kt-wilayah h2{font-size:18px;color:#333;margin:0 0 5px;text-transform:uppercase}",
     "#katalog-tanaman .kt-wilayah div{width:40px;height:3px;background:" + NAVY + "}",
-    "#katalog-tanaman .kt-baris{display:flex;align-items:center;gap:15px;background:#fff;padding:12px;margin-bottom:12px;border-bottom:1px solid #e0e0e0;border-radius:6px;text-decoration:none;color:inherit}",
+    "#katalog-tanaman .kt-baris{display:flex;align-items:center;gap:15px;background:#fff;padding:12px;border-bottom:1px solid #e0e0e0;border-radius:6px;text-decoration:none;color:inherit}",
     "#katalog-tanaman a.kt-baris:hover,#katalog-tanaman a.kt-baris:focus-visible{box-shadow:0 0 0 2px " + NAVY + ";outline:none}",
     "#katalog-tanaman .kt-foto,#katalog-tanaman .kt-inisial{width:100px;height:75px;border-radius:6px;flex:none}",
     "#katalog-tanaman .kt-foto{object-fit:cover;background:#e8eaf3}",
     "#katalog-tanaman .kt-inisial{display:flex;align-items:center;justify-content:center;background:#e8eaf3;color:" + NAVY + ";font-size:28px;font-weight:bold}",
     "#katalog-tanaman .kt-nama{margin:0 0 5px;font-size:16px;font-weight:bold;color:#333}",
     "#katalog-tanaman .kt-latin{margin:0;font-size:13px;color:#666;font-style:italic}",
+    "#katalog-tanaman .kt-tampil{display:flex;margin-left:auto;border:1px solid #d5d8e8;border-radius:6px;overflow:hidden;background:#fff}",
+    "#katalog-tanaman .kt-tampil button{display:flex;align-items:center;gap:6px;padding:8px 14px;font-size:14px;font-family:inherit;border:0;background:#fff;color:#333;cursor:pointer}",
+    "#katalog-tanaman .kt-tampil button+button{border-left:1px solid #d5d8e8}",
+    "#katalog-tanaman .kt-tampil button:focus-visible{outline:3px solid #cdd1f0;outline-offset:-3px}",
+    "#katalog-tanaman .kt-tampil button[aria-pressed=true]{background:" + NAVY + ";color:#fff}",
+    "#katalog-tanaman .kt-tampil svg{width:16px;height:16px;fill:currentColor}",
+    "#katalog-tanaman .kt-daftar{display:flex;flex-direction:column;gap:12px}",
+    "#katalog-tanaman .kt-grid .kt-daftar{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px}",
+    "#katalog-tanaman .kt-grid .kt-baris{flex-direction:column;align-items:stretch;gap:0;padding:0;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.08)}",
+    "#katalog-tanaman .kt-grid .kt-foto,#katalog-tanaman .kt-grid .kt-inisial{width:100%;height:auto;aspect-ratio:4/3;border-radius:0}",
+    "#katalog-tanaman .kt-grid .kt-inisial{font-size:40px}",
+    "#katalog-tanaman .kt-grid .kt-teks{padding:12px}",
+    "#katalog-tanaman .kt-grid .kt-nama{font-size:15px}",
     "#katalog-tanaman .kt-kosong{text-align:center;padding:40px 0;color:#666}"
   ].join("\n");
   var style = document.createElement("style");
@@ -160,6 +174,7 @@
     };
 
     var teks = document.createElement("div");
+    teks.className = "kt-teks";
     var n = document.createElement("h3");
     n.className = "kt-nama";
     n.textContent = nama;
@@ -194,12 +209,49 @@
     bar.appendChild(cari);
     bar.appendChild(jumlah);
 
+    // Pilihan tampilan: list atau grid (pilihan diingat di browser)
+    var tampil = "list";
+    try {
+      if (localStorage.getItem("kt-tampil") === "grid") tampil = "grid";
+    } catch (e) {}
+
+    var IKON = {
+      list: '<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1" y="2" width="14" height="3" rx="1"/><rect x="1" y="6.5" width="14" height="3" rx="1"/><rect x="1" y="11" width="14" height="3" rx="1"/></svg>',
+      grid: '<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1" y="1" width="6" height="6" rx="1"/><rect x="9" y="1" width="6" height="6" rx="1"/><rect x="1" y="9" width="6" height="6" rx="1"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>'
+    };
+    var barTampil = document.createElement("div");
+    barTampil.className = "kt-tampil";
+    barTampil.setAttribute("role", "group");
+    barTampil.setAttribute("aria-label", "Pilih tampilan");
+    var tombolTampil = {};
+    [["list", "List"], ["grid", "Grid"]].forEach(function (t) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.innerHTML = IKON[t[0]] + "<span>" + t[1] + "</span>";
+      b.setAttribute("aria-pressed", t[0] === tampil ? "true" : "false");
+      b.addEventListener("click", function () {
+        tampil = t[0];
+        try { localStorage.setItem("kt-tampil", tampil); } catch (e) {}
+        aturTampil();
+      });
+      tombolTampil[t[0]] = b;
+      barTampil.appendChild(b);
+    });
+    bar.appendChild(barTampil);
+
     var barDaerah = document.createElement("div");
     barDaerah.className = "kt-daerah";
     barDaerah.setAttribute("role", "group");
     barDaerah.setAttribute("aria-label", "Filter daerah");
 
     var isi = document.createElement("div");
+
+    function aturTampil() {
+      isi.className = tampil === "grid" ? "kt-grid" : "kt-list";
+      Object.keys(tombolTampil).forEach(function (k) {
+        tombolTampil[k].setAttribute("aria-pressed", k === tampil ? "true" : "false");
+      });
+    }
 
     var aktif = "Semua";
     var tombol = {};
@@ -236,15 +288,20 @@
         });
         if (!cocok.length) return;
 
+        var seksi = document.createElement("section");
+        seksi.className = "kt-seksi";
         var w = document.createElement("div");
         w.className = "kt-wilayah";
         var h = document.createElement("h2");
         h.textContent = d.daerah;
         w.appendChild(h);
         w.appendChild(document.createElement("div"));
-        isi.appendChild(w);
-
-        cocok.forEach(function (it) { isi.appendChild(buatBaris(it)); });
+        var daftar = document.createElement("div");
+        daftar.className = "kt-daftar";
+        cocok.forEach(function (it) { daftar.appendChild(buatBaris(it)); });
+        seksi.appendChild(w);
+        seksi.appendChild(daftar);
+        isi.appendChild(seksi);
         total += cocok.length;
       });
 
@@ -258,6 +315,7 @@
     }
 
     cari.addEventListener("input", tampilkan);
+    aturTampil();
     tampilkan();
   }
 
